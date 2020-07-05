@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Covid19</string>
+    <string name="title">Pusat Informasi Covid19</string>
+
 </resources>
