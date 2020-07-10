@@ -1,5 +1,10 @@
 package com.example.covid19_mohibnuhablilah.retrofit
 
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+
 object ApiService {
     var BASE_URL:String="https://api.kawalcorona.com/"
     val endpoint: ApiEndpoint
